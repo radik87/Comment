@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "Commnents.Controllers.CommentController",
+    "Method": "Get",
+    "RelativePath": "api/Comment",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Commnents.Controllers.CommentController",
+    "Method": "Post",
+    "RelativePath": "api/Comment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "comment",
+        "Type": "Commnents.Models.Comment",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Commnents.Controllers.CommentController",
+    "Method": "PostMany",
+    "RelativePath": "api/Comment/many",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "comments",
+        "Type": "System.Collections.Generic.List\u00601[[Commnents.Models.Comment, Commnents, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
