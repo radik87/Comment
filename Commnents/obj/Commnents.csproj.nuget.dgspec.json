@@ -66,6 +66,10 @@
             "Philiprehberger.HtmlSanitizer": {
               "target": "Package",
               "version": "[0.2.1, )"
+            },
+            "SixLabors.ImageSharp": {
+              "target": "Package",
+              "version": "[4.1.2, )"
             }
           },
           "imports": [

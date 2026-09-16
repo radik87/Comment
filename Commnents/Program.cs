@@ -19,6 +19,7 @@ builder.Services.AddDbContext<CommentContext>(options =>
 builder.Services.AddScoped<CommentRepository>();
 builder.Services.AddScoped<CommentService>();
 builder.Services.AddScoped<HtmlSanitizerService>();
+builder.Services.AddScoped<FileService>();
 
 builder.Services.AddControllers().AddJsonOptions(options =>
 {

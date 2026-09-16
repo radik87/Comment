@@ -14,10 +14,11 @@ namespace Commnents.Repository
 
         public async Task<List<Comment>> Get()
         {
-            return await _commentContext.Comments.
-                Include(c=> c.User).
-                Where(u => u.UserId== u.UserId).
-                ToListAsync();
+            return await _commentContext.Comments
+                .Include(c => c.User)
+                .Where(u => u.UserId == u.UserId)
+                .OrderByDescending(c => c.CreatedAt)
+                .ToListAsync();
         }
 
         public async Task<Comment> Create(Comment comment)

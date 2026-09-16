@@ -3,7 +3,6 @@ using Commnents.Constans;
 using Commnents.Models;
 using Commnents.Services;
 using Microsoft.AspNetCore.Mvc;
-using Philiprehberger.HtmlSanitizer;
 
 namespace Commnents.Controllers
 {
@@ -11,19 +10,21 @@ namespace Commnents.Controllers
     [ApiController]
     public class CommentController : Controller
     {
-      private readonly CommentService _commentService;
+        private readonly CommentService _commentService;
         private readonly HtmlSanitizerService _htmlSanitizerService;
+        private readonly FileService _fileService;
 
-        public CommentController(CommentService commentService, HtmlSanitizerService htmlSanitizerService)
+        public CommentController(CommentService commentService, HtmlSanitizerService htmlSanitizerService, FileService fileService)
         {
             _commentService = commentService;
             _htmlSanitizerService = htmlSanitizerService;
+            _fileService = fileService;
         }
 
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            return Json(await  _commentService.Get());
+            return Json(await _commentService.Get());
         }
 
         [HttpPost]
@@ -31,8 +32,17 @@ namespace Commnents.Controllers
         {
             string cleanHTML = _htmlSanitizerService.Clean(comment.Text);
 
+            //string? filePath = null;
+            //string? fileType = null;
+            //if (file != null)
+            //{
+            //    filePath = await _fileService.ProcessUploadedFileAsync(file.OpenReadStream(), file.FileName, file.Length);
+            //    fileType = Path.GetExtension(file.FileName).ToLower() == ".txt" ? "text" : "image";
+            //}
+
             if (_htmlSanitizerService.IsValidXhtml(cleanHTML))
             {
+                comment.Text = cleanHTML;
                 return Json(await _commentService.Create(comment));
             }
             else
