@@ -3178,11 +3178,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ev2\\Commnents\\Commnents\\Commnents.csproj",
+      "projectUniqueName": "C:\\dev\\Commnents\\Commnents\\Commnents.csproj",
       "projectName": "Commnents",
-      "projectPath": "D:\\ev2\\Commnents\\Commnents\\Commnents.csproj",
+      "projectPath": "C:\\dev\\Commnents\\Commnents\\Commnents.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\ev2\\Commnents\\Commnents\\obj\\",
+      "outputPath": "C:\\dev\\Commnents\\Commnents\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
