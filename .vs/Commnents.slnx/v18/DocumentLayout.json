@@ -7,17 +7,6 @@
       "RelativeMoniker": "D:0:0:{B8BBC72A-89B1-4D79-80F0-D6FFA486FB00}|Commnents\\Commnents.csproj|solutionrelative:commnents\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8BBC72A-89B1-4D79-80F0-D6FFA486FB00}|Commnents\\Commnents.csproj|c:\\dev\\commnents\\commnents\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8BBC72A-89B1-4D79-80F0-D6FFA486FB00}|Commnents\\Commnents.csproj|solutionrelative:commnents\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\AppData\\Local\\SourceServer\\9ed2a7de0b1e59cfe6bd70f7ec23a7da83c9f5bc9f24e31642f7cd071f59d9ca\\Commnents\\Controllers\\CommentController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8BBC72A-89B1-4D79-80F0-D6FFA486FB00}|Commnents\\Commnents.csproj|c:\\dev\\commnents\\commnents\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8BBC72A-89B1-4D79-80F0-D6FFA486FB00}|Commnents\\Commnents.csproj|solutionrelative:commnents\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B8BBC72A-89B1-4D79-80F0-D6FFA486FB00}|Commnents\\Commnents.csproj|c:\\dev\\commnents\\commnents\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8BBC72A-89B1-4D79-80F0-D6FFA486FB00}|Commnents\\Commnents.csproj|solutionrelative:commnents\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,16 +15,34 @@
       "RelativeMoniker": "D:0:0:{B8BBC72A-89B1-4D79-80F0-D6FFA486FB00}|Commnents\\Commnents.csproj|solutionrelative:commnents\\services\\htmlsanitizerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8BBC72A-89B1-4D79-80F0-D6FFA486FB00}|Commnents\\Commnents.csproj|c:\\dev\\commnents\\commnents\\repository\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8BBC72A-89B1-4D79-80F0-D6FFA486FB00}|Commnents\\Commnents.csproj|solutionrelative:commnents\\repository\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B8BBC72A-89B1-4D79-80F0-D6FFA486FB00}|Commnents\\Commnents.csproj|c:\\dev\\commnents\\commnents\\services\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8BBC72A-89B1-4D79-80F0-D6FFA486FB00}|Commnents\\Commnents.csproj|solutionrelative:commnents\\services\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B8BBC72A-89B1-4D79-80F0-D6FFA486FB00}|Commnents\\Commnents.csproj|c:\\dev\\commnents\\commnents\\repository\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8BBC72A-89B1-4D79-80F0-D6FFA486FB00}|Commnents\\Commnents.csproj|solutionrelative:commnents\\repository\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8BBC72A-89B1-4D79-80F0-D6FFA486FB00}|Commnents\\Commnents.csproj|c:\\dev\\commnents\\commnents\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8BBC72A-89B1-4D79-80F0-D6FFA486FB00}|Commnents\\Commnents.csproj|solutionrelative:commnents\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\AppData\\Local\\SourceServer\\e00a7ed958d0b183475882e2fdecd8e0d8c1f7f3128206404a6ff9f2c8390226\\Commnents\\Controllers\\CommentController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B8BBC72A-89B1-4D79-80F0-D6FFA486FB00}|Commnents\\Commnents.csproj|c:\\dev\\commnents\\commnents\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8BBC72A-89B1-4D79-80F0-D6FFA486FB00}|Commnents\\Commnents.csproj|solutionrelative:commnents\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8BBC72A-89B1-4D79-80F0-D6FFA486FB00}|Commnents\\Commnents.csproj|c:\\dev\\commnents\\commnents\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8BBC72A-89B1-4D79-80F0-D6FFA486FB00}|Commnents\\Commnents.csproj|solutionrelative:commnents\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8BBC72A-89B1-4D79-80F0-D6FFA486FB00}|Commnents\\Commnents.csproj|c:\\dev\\commnents\\commnents\\wwwroot\\uploads\\71b45449-c803-4781-b13b-cd405009b5a6.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{B8BBC72A-89B1-4D79-80F0-D6FFA486FB00}|Commnents\\Commnents.csproj|solutionrelative:commnents\\wwwroot\\uploads\\71b45449-c803-4781-b13b-cd405009b5a6.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\AppData\\Local\\SourceServer\\9ed2a7de0b1e59cfe6bd70f7ec23a7da83c9f5bc9f24e31642f7cd071f59d9ca\\Commnents\\Controllers\\CommentController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B8BBC72A-89B1-4D79-80F0-D6FFA486FB00}|Commnents\\Commnents.csproj|c:\\dev\\commnents\\commnents\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -122,8 +129,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\dev\\Commnents\\Commnents\\Models\\Comment.cs",
+              "RelativeDocumentMoniker": "Commnents\\Models\\Comment.cs",
+              "ToolTip": "C:\\dev\\Commnents\\Commnents\\Models\\Comment.cs",
+              "RelativeToolTip": "Commnents\\Models\\Comment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T11:39:11.859Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -132,7 +152,7 @@
               "RelativeDocumentMoniker": "Commnents\\Controllers\\CommentController.cs",
               "ToolTip": "C:\\dev\\Commnents\\Commnents\\Controllers\\CommentController.cs",
               "RelativeToolTip": "Commnents\\Controllers\\CommentController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAjwCUAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAIwDYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-14T10:37:39.978Z",
               "EditorCaption": ""
@@ -140,58 +160,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CommentController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\AppData\\Local\\SourceServer\\9ed2a7de0b1e59cfe6bd70f7ec23a7da83c9f5bc9f24e31642f7cd071f59d9ca\\Commnents\\Controllers\\CommentController.cs",
-              "RelativeDocumentMoniker": "..\\..\\Users\\user\\AppData\\Local\\SourceServer\\9ed2a7de0b1e59cfe6bd70f7ec23a7da83c9f5bc9f24e31642f7cd071f59d9ca\\Commnents\\Controllers\\CommentController.cs",
-              "ToolTip": "C:\\Users\\user\\AppData\\Local\\SourceServer\\9ed2a7de0b1e59cfe6bd70f7ec23a7da83c9f5bc9f24e31642f7cd071f59d9ca\\Commnents\\Controllers\\CommentController.cs [Read Only]",
-              "RelativeToolTip": "..\\..\\Users\\user\\AppData\\Local\\SourceServer\\9ed2a7de0b1e59cfe6bd70f7ec23a7da83c9f5bc9f24e31642f7cd071f59d9ca\\Commnents\\Controllers\\CommentController.cs [Read Only]",
-              "ViewState": "AgIAAA8AAAAAAAAAAAArwB8AAAAMAAAAAQAAAA==",
+              "Title": "HtmlSanitizerService.cs",
+              "DocumentMoniker": "C:\\dev\\Commnents\\Commnents\\Services\\HtmlSanitizerService.cs",
+              "RelativeDocumentMoniker": "Commnents\\Services\\HtmlSanitizerService.cs",
+              "ToolTip": "C:\\dev\\Commnents\\Commnents\\Services\\HtmlSanitizerService.cs",
+              "RelativeToolTip": "Commnents\\Services\\HtmlSanitizerService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAMwA0AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-16T14:33:28.318Z",
-              "EditorCaption": " [Read Only]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\dev\\Commnents\\Commnents\\Program.cs",
-              "RelativeDocumentMoniker": "Commnents\\Program.cs",
-              "ToolTip": "C:\\dev\\Commnents\\Commnents\\Program.cs",
-              "RelativeToolTip": "Commnents\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-14T12:12:29.613Z",
+              "WhenOpened": "2026-09-16T09:30:49.897Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\dev\\Commnents\\Commnents\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Commnents\\Models\\User.cs",
+              "ToolTip": "C:\\dev\\Commnents\\Commnents\\Models\\User.cs",
+              "RelativeToolTip": "Commnents\\Models\\User.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T11:49:24.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FileService.cs",
+              "DocumentMoniker": "C:\\dev\\Commnents\\Commnents\\Services\\FileService.cs",
+              "RelativeDocumentMoniker": "Commnents\\Services\\FileService.cs",
+              "ToolTip": "C:\\dev\\Commnents\\Commnents\\Services\\FileService.cs",
+              "RelativeToolTip": "Commnents\\Services\\FileService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAjwDEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T13:53:07.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "CommentRepository.cs",
               "DocumentMoniker": "C:\\dev\\Commnents\\Commnents\\Repository\\CommentRepository.cs",
               "RelativeDocumentMoniker": "Commnents\\Repository\\CommentRepository.cs",
               "ToolTip": "C:\\dev\\Commnents\\Commnents\\Repository\\CommentRepository.cs",
               "RelativeToolTip": "Commnents\\Repository\\CommentRepository.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA7wBMAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAzwBoAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-14T13:42:42.332Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Comment.cs",
-              "DocumentMoniker": "C:\\dev\\Commnents\\Commnents\\Models\\Comment.cs",
-              "RelativeDocumentMoniker": "Commnents\\Models\\Comment.cs",
-              "ToolTip": "C:\\dev\\Commnents\\Commnents\\Models\\Comment.cs",
-              "RelativeToolTip": "Commnents\\Models\\Comment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-14T11:39:11.859Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "CommentService.cs",
               "DocumentMoniker": "C:\\dev\\Commnents\\Commnents\\Services\\CommentService.cs",
               "RelativeDocumentMoniker": "Commnents\\Services\\CommentService.cs",
@@ -204,45 +224,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HtmlSanitizerService.cs",
-              "DocumentMoniker": "C:\\dev\\Commnents\\Commnents\\Services\\HtmlSanitizerService.cs",
-              "RelativeDocumentMoniker": "Commnents\\Services\\HtmlSanitizerService.cs",
-              "ToolTip": "C:\\dev\\Commnents\\Commnents\\Services\\HtmlSanitizerService.cs",
-              "RelativeToolTip": "Commnents\\Services\\HtmlSanitizerService.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowAoAAABfAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "CommentController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\AppData\\Local\\SourceServer\\e00a7ed958d0b183475882e2fdecd8e0d8c1f7f3128206404a6ff9f2c8390226\\Commnents\\Controllers\\CommentController.cs",
+              "RelativeDocumentMoniker": "..\\..\\Users\\user\\AppData\\Local\\SourceServer\\e00a7ed958d0b183475882e2fdecd8e0d8c1f7f3128206404a6ff9f2c8390226\\Commnents\\Controllers\\CommentController.cs",
+              "ToolTip": "C:\\Users\\user\\AppData\\Local\\SourceServer\\e00a7ed958d0b183475882e2fdecd8e0d8c1f7f3128206404a6ff9f2c8390226\\Commnents\\Controllers\\CommentController.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\Users\\user\\AppData\\Local\\SourceServer\\e00a7ed958d0b183475882e2fdecd8e0d8c1f7f3128206404a6ff9f2c8390226\\Commnents\\Controllers\\CommentController.cs [Read Only]",
+              "ViewState": "AgIAABwAAAAAAAAAAAArwCAAAABJAAAAAQAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-16T09:30:49.897Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-17T08:39:20.633Z",
+              "EditorCaption": " [Read Only]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FileService.cs",
-              "DocumentMoniker": "C:\\dev\\Commnents\\Commnents\\Services\\FileService.cs",
-              "RelativeDocumentMoniker": "Commnents\\Services\\FileService.cs",
-              "ToolTip": "C:\\dev\\Commnents\\Commnents\\Services\\FileService.cs",
-              "RelativeToolTip": "Commnents\\Services\\FileService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAjAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "CommentController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\AppData\\Local\\SourceServer\\9ed2a7de0b1e59cfe6bd70f7ec23a7da83c9f5bc9f24e31642f7cd071f59d9ca\\Commnents\\Controllers\\CommentController.cs",
+              "RelativeDocumentMoniker": "..\\..\\Users\\user\\AppData\\Local\\SourceServer\\9ed2a7de0b1e59cfe6bd70f7ec23a7da83c9f5bc9f24e31642f7cd071f59d9ca\\Commnents\\Controllers\\CommentController.cs",
+              "ToolTip": "C:\\Users\\user\\AppData\\Local\\SourceServer\\9ed2a7de0b1e59cfe6bd70f7ec23a7da83c9f5bc9f24e31642f7cd071f59d9ca\\Commnents\\Controllers\\CommentController.cs",
+              "RelativeToolTip": "..\\..\\Users\\user\\AppData\\Local\\SourceServer\\9ed2a7de0b1e59cfe6bd70f7ec23a7da83c9f5bc9f24e31642f7cd071f59d9ca\\Commnents\\Controllers\\CommentController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAArwB8AAAAMAAAAAQAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-16T13:53:07.616Z",
+              "WhenOpened": "2026-09-16T14:33:28.318Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\dev\\Commnents\\Commnents\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Commnents\\Models\\User.cs",
-              "ToolTip": "C:\\dev\\Commnents\\Commnents\\Models\\User.cs",
-              "RelativeToolTip": "Commnents\\Models\\User.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAwAAAAhAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\dev\\Commnents\\Commnents\\Program.cs",
+              "RelativeDocumentMoniker": "Commnents\\Program.cs",
+              "ToolTip": "C:\\dev\\Commnents\\Commnents\\Program.cs",
+              "RelativeToolTip": "Commnents\\Program.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAQwD8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-14T11:49:24.443Z"
+              "WhenOpened": "2026-09-14T12:12:29.613Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 9,
+              "Title": "71b45449-c803-4781-b13b-cd405009b5a6.jpg - Bitmap [189x240, 24 bit, JPG]",
+              "DocumentMoniker": "C:\\dev\\Commnents\\Commnents\\wwwroot\\uploads\\71b45449-c803-4781-b13b-cd405009b5a6.jpg",
+              "RelativeDocumentMoniker": "Commnents\\wwwroot\\uploads\\71b45449-c803-4781-b13b-cd405009b5a6.jpg",
+              "ToolTip": "C:\\dev\\Commnents\\Commnents\\wwwroot\\uploads\\71b45449-c803-4781-b13b-cd405009b5a6.jpg - Bitmap [189x240, 24 bit, JPG]",
+              "RelativeToolTip": "Commnents\\wwwroot\\uploads\\71b45449-c803-4781-b13b-cd405009b5a6.jpg - Bitmap [189x240, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-09-16T15:09:14.314Z",
+              "EditorCaption": " - Bitmap [189x240, 24 bit, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\dev\\Commnents\\Commnents\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Commnents\\Models\\ErrorViewModel.cs",
@@ -254,7 +286,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\dev\\Commnents\\Commnents\\appsettings.json",
               "RelativeDocumentMoniker": "Commnents\\appsettings.json",
@@ -266,7 +298,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "20260915141227_modify_tables_User_and_Comment.cs",
               "DocumentMoniker": "C:\\dev\\Commnents\\Commnents\\Migrations\\20260915141227_modify_tables_User_and_Comment.cs",
               "RelativeDocumentMoniker": "Commnents\\Migrations\\20260915141227_modify_tables_User_and_Comment.cs",
@@ -278,7 +310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "20260915141116_modify_tables_User_and_Comment.cs",
               "DocumentMoniker": "D:\\dev\\Commnents\\Commnents\\Migrations\\20260915141116_modify_tables_User_and_Comment.cs",
               "ToolTip": "D:\\dev\\Commnents\\Commnents\\Migrations\\20260915141116_modify_tables_User_and_Comment.cs",
@@ -288,7 +320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": ".gitignore",
               "DocumentMoniker": "D:\\dev\\Commnents\\Commnents\\.gitignore",
               "ToolTip": "D:\\dev\\Commnents\\Commnents\\.gitignore",
@@ -298,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "20260915101813_Init.cs",
               "DocumentMoniker": "D:\\dev\\Commnents\\Commnents\\Migrations\\20260915101813_Init.cs",
               "ToolTip": "D:\\dev\\Commnents\\Commnents\\Migrations\\20260915101813_Init.cs",
@@ -308,7 +340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "20260915101910_Init.cs",
               "DocumentMoniker": "D:\\dev\\Commnents\\Commnents\\Migrations\\20260915101910_Init.cs",
               "ToolTip": "D:\\dev\\Commnents\\Commnents\\Migrations\\20260915101910_Init.cs",
@@ -318,7 +350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "RegexConst.cs",
               "DocumentMoniker": "C:\\dev\\Commnents\\Commnents\\Constans\\RegexConst.cs",
               "RelativeDocumentMoniker": "Commnents\\Constans\\RegexConst.cs",
@@ -330,7 +362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "Route.cs",
               "DocumentMoniker": "C:\\dev\\Commnents\\Commnents\\Constans\\Route.cs",
               "RelativeDocumentMoniker": "Commnents\\Constans\\Route.cs",
@@ -342,7 +374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "20260915080244_UpdateCommentsTable.cs",
               "DocumentMoniker": "D:\\dev\\Commnents\\Commnents\\Migrations\\20260915080244_UpdateCommentsTable.cs",
               "ToolTip": "D:\\dev\\Commnents\\Commnents\\Migrations\\20260915080244_UpdateCommentsTable.cs",
@@ -352,7 +384,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "CommentContext.cs",
               "DocumentMoniker": "C:\\dev\\Commnents\\Commnents\\Models\\CommentContext.cs",
               "RelativeDocumentMoniker": "Commnents\\Models\\CommentContext.cs",
@@ -364,7 +396,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "favicon.ico - Icon [32x32, 32 bit, BMP]",
               "DocumentMoniker": "C:\\dev\\Commnents\\Commnents\\wwwroot\\favicon.ico",
               "RelativeDocumentMoniker": "Commnents\\wwwroot\\favicon.ico",
@@ -376,7 +408,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "20260914144109_Init.cs",
               "DocumentMoniker": "D:\\dev\\Commnents\\Commnents\\Migrations\\20260914144109_Init.cs",
               "ToolTip": "D:\\dev\\Commnents\\Commnents\\Migrations\\20260914144109_Init.cs",
@@ -386,7 +418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "20260914171305_Fix_add_userId_Comment_Table.cs",
               "DocumentMoniker": "D:\\dev\\Commnents\\Commnents\\Migrations\\20260914171305_Fix_add_userId_Comment_Table.cs",
               "ToolTip": "D:\\dev\\Commnents\\Commnents\\Migrations\\20260914171305_Fix_add_userId_Comment_Table.cs",
@@ -396,7 +428,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "20260914171431_Init.cs",
               "DocumentMoniker": "D:\\dev\\Commnents\\Commnents\\Migrations\\20260914171431_Init.cs",
               "ToolTip": "D:\\dev\\Commnents\\Commnents\\Migrations\\20260914171431_Init.cs",
@@ -406,7 +438,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "20260914171703_Init.cs",
               "DocumentMoniker": "D:\\dev\\Commnents\\Commnents\\Migrations\\20260914171703_Init.cs",
               "ToolTip": "D:\\dev\\Commnents\\Commnents\\Migrations\\20260914171703_Init.cs",
@@ -416,7 +448,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "20260914145829_Add_User_ListCommtents_nullable.cs",
               "DocumentMoniker": "D:\\dev\\Commnents\\Commnents\\Migrations\\20260914145829_Add_User_ListCommtents_nullable.cs",
               "ToolTip": "D:\\dev\\Commnents\\Commnents\\Migrations\\20260914145829_Add_User_ListCommtents_nullable.cs",
@@ -426,7 +458,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "20260914144305_Init.cs",
               "DocumentMoniker": "D:\\dev\\Commnents\\Commnents\\Migrations\\20260914144305_Init.cs",
               "ToolTip": "D:\\dev\\Commnents\\Commnents\\Migrations\\20260914144305_Init.cs",
@@ -436,7 +468,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "20260914143303_Init2209.cs",
               "DocumentMoniker": "D:\\dev\\Commnents\\Commnents\\Migrations\\20260914143303_Init2209.cs",
               "ToolTip": "D:\\dev\\Commnents\\Commnents\\Migrations\\20260914143303_Init2209.cs",
@@ -446,7 +478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "20260914131251_Remove TestTable.cs",
               "DocumentMoniker": "D:\\dev\\Commnents\\Commnents\\Migrations\\20260914131251_Remove TestTable.cs",
               "ToolTip": "D:\\dev\\Commnents\\Commnents\\Migrations\\20260914131251_Remove TestTable.cs",
@@ -456,7 +488,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "20260914125025_Init.cs",
               "DocumentMoniker": "D:\\dev\\Commnents\\Commnents\\Migrations\\20260914125025_Init.cs",
               "ToolTip": "D:\\dev\\Commnents\\Commnents\\Migrations\\20260914125025_Init.cs",
@@ -466,7 +498,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "20260914124658_Init.cs",
               "DocumentMoniker": "D:\\dev\\Commnents\\Commnents\\Migrations\\20260914124658_Init.cs",
               "ToolTip": "D:\\dev\\Commnents\\Commnents\\Migrations\\20260914124658_Init.cs",
@@ -476,7 +508,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "Commnents.csproj",
               "DocumentMoniker": "C:\\dev\\Commnents\\Commnents\\Commnents.csproj",
               "RelativeDocumentMoniker": "Commnents\\Commnents.csproj",
@@ -484,7 +516,8 @@
               "RelativeToolTip": "Commnents\\Commnents.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-09-14T10:43:31.794Z"
+              "WhenOpened": "2026-09-14T10:43:31.794Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -683,3 +683,6 @@ C:\dev\Commnents\Commnents\obj\Debug\net10.0\Commnents.genruntimeconfig.cache
 C:\dev\Commnents\Commnents\obj\Debug\net10.0\ref\Commnents.dll
 C:\dev\Commnents\Commnents\bin\Debug\net10.0\SixLabors.ImageSharp.dll
 C:\dev\Commnents\Commnents\bin\Debug\net10.0\System.IO.Hashing.dll
+C:\dev\Commnents\Commnents\obj\Debug\net10.0\compressed\7y2y4qbkjx-{0}-ptfuj3ouwh-ptfuj3ouwh.gz
+C:\dev\Commnents\Commnents\obj\Debug\net10.0\compressed\ywdbfkoblk-{0}-ptfuj3ouwh-ptfuj3ouwh.gz
+C:\dev\Commnents\Commnents\obj\Debug\net10.0\compressed\4908dprhh1-{0}-ptfuj3ouwh-ptfuj3ouwh.gz

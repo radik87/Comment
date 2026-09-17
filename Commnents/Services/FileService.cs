@@ -1,4 +1,5 @@
-﻿using SixLabors.ImageSharp;
+﻿using Commnents.Models;
+using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.Processing;
 
 namespace Commnents.Services
@@ -7,15 +8,20 @@ namespace Commnents.Services
     {
         private readonly string[] _allowedImageExtensions = { ".jpg", ".jpeg", ".gif", ".png" };
 
-        public async Task<string?> ProcessUploadedFileAsync(Stream fileStream, string fileName, long fileSize)
+        public async Task<Comment> SaveFile(Comment comment, IFormFile file)
+        {
+            comment.FilePath = await ProcessUploadedFileAsync(file.OpenReadStream(), file.FileName, file.Length);
+            comment.FileType = Path.GetExtension(file.FileName).ToLower() == ".txt" ? "text" : "image";
+            return comment;
+        }
+        private async Task<string?> ProcessUploadedFileAsync(Stream fileStream, string fileName, long fileSize)
         {
             string ext = Path.GetExtension(fileName).ToLower();
 
-            // 1. Обработка текстового файла
-            if (ext == ".txt")
+            if(ext == ".txt")
             {
                 if (fileSize > 100 * 1024) // 100 KB
-                    throw new Exception("Текстовый файл не должен превышать 100 КБ.");
+                    throw new Exception("The text file must not exceed 100 KB.");
 
                 string txtPath = Path.Combine("wwwroot", "uploads", $"{Guid.NewGuid()}.txt");
                 using FileStream fs = new FileStream(txtPath, FileMode.Create);
@@ -23,8 +29,7 @@ namespace Commnents.Services
                 return txtPath;
             }
 
-            // 2. Обработка изображения
-            if (_allowedImageExtensions.Contains(ext))
+            if(_allowedImageExtensions.Contains(ext))
             {
                 using Image image = await Image.LoadAsync(fileStream);
 
@@ -33,7 +38,7 @@ namespace Commnents.Services
                     image.Mutate(x => x.Resize(new ResizeOptions
                     {
                         Size = new Size(320, 240),
-                        Mode = ResizeMode.Max // Пропорциональное уменьшение
+                        Mode = ResizeMode.Max
                     }));
                 }
 
@@ -42,7 +47,7 @@ namespace Commnents.Services
                 return imgPath;
             }
 
-            throw new Exception("Неподдерживаемый формат файла.");
+            throw new Exception("Unsupported file format.");
         }
     }
 }

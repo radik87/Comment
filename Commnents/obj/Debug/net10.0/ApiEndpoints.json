@@ -18,9 +18,234 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "comment",
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "Text",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CreatedAt",
+        "Type": "System.DateTimeOffset",
+        "IsRequired": false
+      },
+      {
+        "Name": "FilePath",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UserId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "User.Id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "User.UserName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "User.Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "User.HomePage",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "User.Comments",
+        "Type": "System.Collections.Generic.List\u00601[[Commnents.Models.Comment, Commnents, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ParentId",
+        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Parent.Id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "Parent.Text",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Parent.CreatedAt",
+        "Type": "System.DateTimeOffset",
+        "IsRequired": false
+      },
+      {
+        "Name": "Parent.FilePath",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Parent.FileType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Parent.UserId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "Parent.User.Id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "Parent.User.UserName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Parent.User.Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Parent.User.HomePage",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Parent.User.Comments",
+        "Type": "System.Collections.Generic.List\u00601[[Commnents.Models.Comment, Commnents, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Parent.ParentId",
+        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Parent.Parent.Id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "Parent.Parent.Text",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Parent.Parent.CreatedAt",
+        "Type": "System.DateTimeOffset",
+        "IsRequired": false
+      },
+      {
+        "Name": "Parent.Parent.FilePath",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Parent.Parent.FileType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Parent.Parent.UserId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "Parent.Parent.User.Id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "Parent.Parent.User.UserName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Parent.Parent.User.Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Parent.Parent.User.HomePage",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Parent.Parent.User.Comments",
+        "Type": "System.Collections.Generic.List\u00601[[Commnents.Models.Comment, Commnents, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Parent.Parent.ParentId",
+        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Parent.Parent.Parent",
         "Type": "Commnents.Models.Comment",
-        "IsRequired": true
+        "IsRequired": false
+      },
+      {
+        "Name": "Parent.Parent.Replies",
+        "Type": "System.Collections.Generic.List\u00601[[Commnents.Models.Comment, Commnents, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Parent.Replies",
+        "Type": "System.Collections.Generic.List\u00601[[Commnents.Models.Comment, Commnents, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Replies",
+        "Type": "System.Collections.Generic.List\u00601[[Commnents.Models.Comment, Commnents, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentDisposition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Headers",
+        "Type": "Microsoft.AspNetCore.Http.IHeaderDictionary",
+        "IsRequired": false
+      },
+      {
+        "Name": "Length",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

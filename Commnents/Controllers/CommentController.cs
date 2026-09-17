@@ -28,26 +28,29 @@ namespace Commnents.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post(Comment comment)
+        public async Task<IActionResult> Post([FromForm] Comment comment, [FromForm] IFormFile? file)
         {
-            string cleanHTML = _htmlSanitizerService.Clean(comment.Text);
-
-            //string? filePath = null;
-            //string? fileType = null;
-            //if (file != null)
-            //{
-            //    filePath = await _fileService.ProcessUploadedFileAsync(file.OpenReadStream(), file.FileName, file.Length);
-            //    fileType = Path.GetExtension(file.FileName).ToLower() == ".txt" ? "text" : "image";
-            //}
-
-            if (_htmlSanitizerService.IsValidXhtml(cleanHTML))
+            if (file != null)
             {
-                comment.Text = cleanHTML;
+                try
+                {
+                    comment = await _fileService.SaveFile(comment, file);
+                }
+                catch (Exception ex)
+                {
+                    return BadRequest(ex.Message);
+                }
+            }
+
+            comment.Text = _htmlSanitizerService.Clean(comment.Text);
+
+            if (_htmlSanitizerService.IsValidXhtml(comment.Text))
+            {
                 return Json(await _commentService.Create(comment));
             }
             else
             {
-                return BadRequest("invalid XTML check text your message");
+                return BadRequest("invalid XHTML check text your message");
             }
         }
 
