@@ -28,6 +28,11 @@
         "IsRequired": false
       },
       {
+        "Name": "Capcha",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
         "Name": "CreatedAt",
         "Type": "System.DateTimeOffset",
         "IsRequired": false
@@ -88,6 +93,11 @@
         "IsRequired": false
       },
       {
+        "Name": "Parent.Capcha",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
         "Name": "Parent.CreatedAt",
         "Type": "System.DateTimeOffset",
         "IsRequired": false
@@ -144,6 +154,11 @@
       },
       {
         "Name": "Parent.Parent.Text",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Parent.Parent.Capcha",
         "Type": "System.String",
         "IsRequired": false
       },

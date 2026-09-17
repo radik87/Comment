@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Commnents.Constans;
+using System.ComponentModel.DataAnnotations;
 
 namespace Commnents.Models
 {
@@ -9,6 +10,9 @@ namespace Commnents.Models
         [Required]
         public string Text { get; set; } = null!;
 
+        [Required]
+        [RegularExpression(RegexConst.DigitsAndLetters)]
+        public string Capcha { get; set; } = null!;
         public DateTimeOffset CreatedAt { get; set; } = DateTimeOffset.Now;
 
         public string? FilePath { get; set; }

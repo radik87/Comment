@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Commnents.Migrations
 {
     [DbContext(typeof(CommentContext))]
-    [Migration("20260915141227_modify_tables_User_and_Comment")]
-    partial class modify_tables_User_and_Comment
+    [Migration("20260917091922_Added_Capcha_Comment_Model")]
+    partial class Added_Capcha_Comment_Model
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -30,6 +30,10 @@ namespace Commnents.Migrations
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Capcha")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTimeOffset>("CreatedAt")
                         .HasColumnType("datetimeoffset");
