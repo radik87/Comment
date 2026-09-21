@@ -16,8 +16,9 @@ namespace Commnents.Repository
         {
             return await _commentContext.Comments
                 .Include(c => c.User)
-                .Where(u => u.UserId == u.UserId)
                 .OrderByDescending(c => c.CreatedAt)
+                .Take(25)
+                .AsNoTracking()
                 .ToListAsync();
         }
 
@@ -30,7 +31,6 @@ namespace Commnents.Repository
             return comment;
         }
 
-        // method for mock data
 
         public async Task<List<Comment>> CreateMany(List<Comment> comments)
         {

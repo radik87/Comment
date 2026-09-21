@@ -21,7 +21,6 @@ namespace Commnents.Services
             return await _commentRepository.Create(comment);
         }
 
-        // method for mock data
         public async Task<List<Comment>> CreateMany(List<Comment> comments)
         {
             return await _commentRepository.CreateMany(comments);

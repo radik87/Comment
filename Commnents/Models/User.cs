@@ -16,8 +16,6 @@ namespace Commnents.Models
         [EmailAddress]
         public string Email { get; set; }
         public string? HomePage { get; set; }
-
-        // Навигационное свойство: все комментарии этого пользователя
         public List<Comment> Comments { get; set; } = new List<Comment>();
     }
 }

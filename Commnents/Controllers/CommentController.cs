@@ -24,8 +24,28 @@ namespace Commnents.Controllers
         [HttpGet]
         public async Task<IActionResult> Get()
         {
+            List<Comment> comments = await _commentService.Get();
             return Json(await _commentService.Get());
         }
+
+        //[HttpGet]
+        //public async Task<IActionResult> GetPages([FromQuery]int page = 1)
+        //{
+        //    int pageSize = 25;
+        //    List<Comment> comments = await _commentService.Get();
+        //    int count = comments.Count();
+        //    dynamic items = comments.Skip((page - 1) * pageSize).Take(pageSize);
+
+        //    PageViewModel pageViewModel = new PageViewModel(count, page, pageSize);
+
+        //    IndexViewModel viewModel = new IndexViewModel
+        //    {
+        //        PageViewModel = pageViewModel,
+        //        Comments = items
+        //    };
+
+        //    return Json(viewModel);
+        //}
 
         [HttpPost]
         public async Task<IActionResult> Post(Comment comment, [FromForm] IFormFile? file)
