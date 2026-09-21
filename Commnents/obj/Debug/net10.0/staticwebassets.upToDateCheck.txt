@@ -71,6 +71,9 @@ wwwroot\uploads\b57bee0a-55c9-4526-8953-2e8b02201ed3.jpg
 wwwroot\uploads\5de8c76e-21e2-42ae-9881-b393db3b9304.txt
 wwwroot\uploads\f628e860-f53e-467e-9454-fcf2089f71e2.txt
 wwwroot\uploads\62826327-5f44-4bdd-af3c-2fd7ceee292d.txt
+wwwroot\uploads\65dc2545-e274-4cfd-a2cd-180374a6bfcb.jpg
+wwwroot\uploads\98e9c4b8-8026-4849-af69-2f55c9ce5c65.jpg
+wwwroot\uploads\f51a78b8-da8f-4003-a24d-d4dac8b7dc53.jpg
 C:\dev\Commnents\Commnents\wwwroot\css\site.css
 C:\dev\Commnents\Commnents\wwwroot\favicon.ico
 C:\dev\Commnents\Commnents\wwwroot\js\site.js

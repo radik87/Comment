@@ -5,7 +5,19 @@ using Commnents.Services;
 using Microsoft.EntityFrameworkCore;
 using System.Text.Json.Serialization;
 
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: "cors",
+                      policy =>
+                      {
+                          policy.WithOrigins("*")
+                          .AllowAnyHeader()
+                          .AllowAnyMethod();
+                      });
+});
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -34,6 +46,8 @@ builder.Services.AddSession(options =>
 });
 
 
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -53,7 +67,7 @@ if (!app.Environment.IsDevelopment())
 //    await next();
 //});
 
-
+app.UseCors("cors");
 app.UseHttpsRedirection();
 app.UseRouting();
 

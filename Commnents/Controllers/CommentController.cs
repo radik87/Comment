@@ -28,7 +28,7 @@ namespace Commnents.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post([FromForm] Comment comment, [FromForm] IFormFile? file)
+        public async Task<IActionResult> Post(Comment comment, [FromForm] IFormFile? file)
         {
             if (file != null)
             {

@@ -1,5 +1,4 @@
-﻿using Commnents.Constans;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace Commnents.Models
 {
@@ -9,10 +8,6 @@ namespace Commnents.Models
         public Guid Id { get; set; } = new Guid();
         [Required]
         public string Text { get; set; } = null!;
-
-        [Required]
-        [RegularExpression(RegexConst.DigitsAndLetters)]
-        public string Capcha { get; set; } = null!;
         public DateTimeOffset CreatedAt { get; set; } = DateTimeOffset.Now;
 
         public string? FilePath { get; set; }
