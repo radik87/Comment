@@ -11,9 +11,13 @@ namespace Commnents.Services
             _commentRepository = commentRepository;
         }
 
-        public async Task<List<Comment>> Get()
+        public async Task<List<Comment>> GetAll()
         {
-            return await _commentRepository.Get();
+            return await _commentRepository.GetAll();
+        }
+        public async Task<CommentDTO> GetPages(int pageNumber)
+        {
+            return await _commentRepository.GetPages(pageNumber);
         }
 
         public async Task<Comment> Create(Comment comment)

@@ -12,14 +12,36 @@ namespace Commnents.Repository
             _commentContext = commentContext;
         }
 
-        public async Task<List<Comment>> Get()
+        public async Task<List<Comment>> GetAll()
         {
             return await _commentContext.Comments
                 .Include(c => c.User)
                 .OrderByDescending(c => c.CreatedAt)
-                .Take(25)
                 .AsNoTracking()
                 .ToListAsync();
+        }
+
+        public async Task<CommentDTO> GetPages(int pageNumber)
+        {
+            int commentsCount = await _commentContext.Comments.CountAsync();
+            const int pageSize = 25;
+
+            List<Comment> commentsPaged = await _commentContext.Comments
+                .Include(c => c.User)
+                .OrderByDescending(c => c.CreatedAt)
+                .Skip((pageNumber - 1) * pageSize)
+                .Take(pageSize)
+                .AsNoTracking()
+                .ToListAsync();
+
+            return new CommentDTO
+            {
+                PageNumber = pageNumber,
+                PageSize = pageSize,
+                TotalItems = commentsCount,
+                TotalPages = (int)Math.Ceiling(commentsCount / (double)pageSize),
+                Comments = commentsPaged
+            };
         }
 
         public async Task<Comment> Create(Comment comment)
@@ -39,7 +61,6 @@ namespace Commnents.Repository
                 _commentContext.Comments.Add(comment);
                 _commentContext.Users.Add(comment.User);
             }
-
             await _commentContext.SaveChangesAsync();
 
             return comments;

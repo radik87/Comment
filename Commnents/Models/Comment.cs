@@ -5,7 +5,7 @@ namespace Commnents.Models
     public class Comment
     {
         [Key]
-        public Guid Id { get; set; } = new Guid();
+        public Guid Id { get; set; } = new();
         [Required]
         public string Text { get; set; } = null!;
         public DateTimeOffset CreatedAt { get; set; } = DateTimeOffset.Now;
