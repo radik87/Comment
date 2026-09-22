@@ -24,31 +24,16 @@ namespace Commnents.Controllers
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            List<Comment> comments = await _commentService.Get();
             return Json(await _commentService.Get());
         }
 
-        //[HttpGet]
-        //public async Task<IActionResult> GetPages([FromQuery]int page = 1)
-        //{
-        //    int pageSize = 25;
-        //    List<Comment> comments = await _commentService.Get();
-        //    int count = comments.Count();
-        //    dynamic items = comments.Skip((page - 1) * pageSize).Take(pageSize);
-
-        //    PageViewModel pageViewModel = new PageViewModel(count, page, pageSize);
-
-        //    IndexViewModel viewModel = new IndexViewModel
-        //    {
-        //        PageViewModel = pageViewModel,
-        //        Comments = items
-        //    };
-
-        //    return Json(viewModel);
-        //}
-
+        [HttpGet]
+        public async Task<IActionResult> GetPages(int pageNum)
+        {
+            return Json(await _commentService.Get());
+        }
         [HttpPost]
-        public async Task<IActionResult> Post(Comment comment, [FromForm] IFormFile? file)
+        public async Task<IActionResult> Post([FromForm] Comment comment, [FromForm] IFormFile? file)
         {
             if (file != null)
             {
@@ -64,14 +49,9 @@ namespace Commnents.Controllers
 
             comment.Text = _htmlSanitizerService.Clean(comment.Text);
 
-            if (_htmlSanitizerService.IsValidXhtml(comment.Text))
-            {
-                return Json(await _commentService.Create(comment));
-            }
-            else
-            {
-                return BadRequest("invalid XHTML check text your message");
-            }
+            return _htmlSanitizerService.IsValidXhtml(comment.Text)
+                ? Json(await _commentService.Create(comment))
+                : BadRequest("invalid XHTML check text your message");
         }
 
         // method for mock data

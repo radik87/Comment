@@ -10,7 +10,11 @@ namespace Commnents.Services
 
         public async Task<Comment> SaveFile(Comment comment, IFormFile file)
         {
-            comment.FilePath = await ProcessUploadedFileAsync(file.OpenReadStream(), file.FileName, file.Length);
+            string filePath = await ProcessUploadedFileAsync(file.OpenReadStream(), file.FileName, file.Length);
+            comment.FilePath = filePath.Replace(
+                "wwwroot", string.Concat("https://localhost:", Environment.GetEnvironmentVariable("ASPNETCORE_HTTPS_PORT")))
+                .Replace('\\', '/');
+
             comment.FileType = Path.GetExtension(file.FileName).ToLower() == ".txt" ? "text" : "image";
             return comment;
         }
@@ -18,7 +22,7 @@ namespace Commnents.Services
         {
             string ext = Path.GetExtension(fileName).ToLower();
 
-            if(ext == ".txt")
+            if (ext == ".txt")
             {
                 if (fileSize > 100 * 1024) // 100 KB
                     throw new Exception("The text file must not exceed 100 KB.");
@@ -29,7 +33,7 @@ namespace Commnents.Services
                 return txtPath;
             }
 
-            if(_allowedImageExtensions.Contains(ext))
+            if (_allowedImageExtensions.Contains(ext))
             {
                 using Image image = await Image.LoadAsync(fileStream);
 

@@ -686,3 +686,12 @@ C:\dev\Commnents\Commnents\bin\Debug\net10.0\System.IO.Hashing.dll
 C:\dev\Commnents\Commnents\obj\Debug\net10.0\compressed\7y2y4qbkjx-{0}-ptfuj3ouwh-ptfuj3ouwh.gz
 C:\dev\Commnents\Commnents\obj\Debug\net10.0\compressed\ywdbfkoblk-{0}-ptfuj3ouwh-ptfuj3ouwh.gz
 C:\dev\Commnents\Commnents\obj\Debug\net10.0\compressed\4908dprhh1-{0}-ptfuj3ouwh-ptfuj3ouwh.gz
+C:\dev\Commnents\Commnents\obj\Debug\net10.0\compressed\sei56enci4-{0}-wyc2nvrf5t-wyc2nvrf5t.gz
+C:\dev\Commnents\Commnents\obj\Debug\net10.0\compressed\mfxlrwu6hk-{0}-wyc2nvrf5t-wyc2nvrf5t.gz
+C:\dev\Commnents\Commnents\obj\Debug\net10.0\compressed\xqq8my0476-{0}-wyc2nvrf5t-wyc2nvrf5t.gz
+C:\dev\Commnents\Commnents\obj\Debug\net10.0\compressed\cdcghb8007-{0}-wyc2nvrf5t-wyc2nvrf5t.gz
+C:\dev\Commnents\Commnents\obj\Debug\net10.0\compressed\qatl6wbznm-{0}-wyc2nvrf5t-wyc2nvrf5t.gz
+C:\dev\Commnents\Commnents\obj\Debug\net10.0\compressed\3smdyqilu4-{0}-wyc2nvrf5t-wyc2nvrf5t.gz
+C:\dev\Commnents\Commnents\obj\Debug\net10.0\compressed\9z0f7gltq5-{0}-wyc2nvrf5t-wyc2nvrf5t.gz
+C:\dev\Commnents\Commnents\obj\Debug\net10.0\compressed\h8mgcbaqtp-{0}-wyc2nvrf5t-wyc2nvrf5t.gz
+C:\dev\Commnents\Commnents\obj\Debug\net10.0\compressed\ccpghdu3jp-{0}-wyc2nvrf5t-wyc2nvrf5t.gz
