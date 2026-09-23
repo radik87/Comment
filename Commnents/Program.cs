@@ -58,14 +58,6 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-//app.Use(async (context, next) =>
-//{
-//    context.Response.Headers.Append(
-//        "Content-Security-Policy",
-//        "default-src 'self'; script-src 'self' https://trusted.cdn.com; object-src 'none';"
-//    );
-//    await next();
-//});
 
 app.UseCors("cors");
 app.UseHttpsRedirection();

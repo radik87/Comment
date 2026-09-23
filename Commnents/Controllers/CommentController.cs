@@ -22,11 +22,9 @@ namespace Commnents.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> Get([FromQuery] int pageNum)
+        public async Task<IActionResult> Get([FromQuery] int pageNumber)
         {
-            return (pageNum == 0)
-                ? Json(await _commentService.GetAll())
-                : Json(await _commentService.GetPages(pageNum));
+            return Json(await _commentService.GetPages(pageNumber));
         }
 
         [HttpPost]
@@ -43,8 +41,6 @@ namespace Commnents.Controllers
                     return BadRequest(ex.Message);
                 }
             }
-
-            comment.Text = _htmlSanitizerService.Clean(comment.Text);
 
             return (_htmlSanitizerService.IsValidXhtml(comment.Text))
                 ? Json(await _commentService.Create(comment))

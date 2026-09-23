@@ -23,6 +23,11 @@ namespace Commnents.Repository
 
         public async Task<CommentDTO> GetPages(int pageNumber)
         {
+            if(pageNumber < 1)
+            {
+                pageNumber = 1;
+            }
+
             int commentsCount = await _commentContext.Comments.CountAsync();
             const int pageSize = 25;
 

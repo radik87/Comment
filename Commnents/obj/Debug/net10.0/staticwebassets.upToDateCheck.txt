@@ -96,6 +96,7 @@ wwwroot\uploads\087a5955-11e4-405a-86bb-80a5f33bd4e7.txt
 wwwroot\uploads\7f538d90-27c9-4bfa-ae54-e44a4a11c6ff.jpg
 wwwroot\uploads\adb5c355-750d-4229-9ce2-056a2c7fad59.jpg
 wwwroot\uploads\ebcf268f-360f-4338-89a4-dc8db496eb8e.jpg
+wwwroot\uploads\52a0d6eb-2a7d-4b46-b871-ce0e535d11b5.txt
 C:\dev\Commnents\Commnents\wwwroot\uploads\f628e860-f53e-467e-9454-fcf2089f71e2.txt
 C:\dev\Commnents\Commnents\wwwroot\uploads\62826327-5f44-4bdd-af3c-2fd7ceee292d.txt
 C:\dev\Commnents\Commnents\wwwroot\uploads\5de8c76e-21e2-42ae-9881-b393db3b9304.txt
@@ -170,3 +171,4 @@ C:\dev\Commnents\Commnents\wwwroot\uploads\7cdce12b-c969-40b5-ba67-95e792693fad.
 C:\dev\Commnents\Commnents\wwwroot\uploads\90b89107-0fc3-451b-a1dc-850f4391b557.txt
 C:\dev\Commnents\Commnents\wwwroot\uploads\46c9b6e9-3b92-4d82-81de-61be64a62995.txt
 C:\dev\Commnents\Commnents\wwwroot\uploads\087a5955-11e4-405a-86bb-80a5f33bd4e7.txt
+C:\dev\Commnents\Commnents\wwwroot\uploads\52a0d6eb-2a7d-4b46-b871-ce0e535d11b5.txt
